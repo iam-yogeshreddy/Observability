@@ -45,3 +45,26 @@ We use observability to:
 -> Understand Behavior
 
 -> Improve Systems
+
+
+𝑴𝒐𝒏𝒊𝒕𝒐𝒓𝒊𝒏𝒈 :
+
+𝙈𝙚𝙩𝙧𝙞𝙘𝙨 𝙫𝙨 𝙈𝙤𝙣𝙞𝙩𝙤𝙧𝙞𝙣𝙜 :
+
+Metrics are measurements or data points that tell you what is happening.
+
+Monitoring is the process of keeping an eye on these metrics over time to understand what’s normal, identify changes, and detect problems.
+
+𝙋𝙧𝙤𝙢𝙚𝙩𝙝𝙚𝙪𝙨 :
+
+* Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud.
+
+* It can be configured and set up on both bare-metal servers and container environments like Kubernetes.
+
+
+𝙋𝙧𝙤𝙢𝙚𝙩𝙝𝙚𝙪𝙨 𝘼𝙧𝙘𝙝𝙞𝙩𝙚𝙘𝙩𝙪𝙧𝙚 :
+
+![image](https://github.com/user-attachments/assets/76d64498-51f1-4e0b-a47c-9da7e196494c)
+
+
+
