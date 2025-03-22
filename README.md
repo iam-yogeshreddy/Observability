@@ -67,4 +67,21 @@ Monitoring is the process of keeping an eye on these metrics over time to unders
 ![image](https://github.com/user-attachments/assets/76d64498-51f1-4e0b-a47c-9da7e196494c)
 
 
+𝙒𝙝𝙖𝙩 𝙞𝙨 𝙋𝙧𝙤𝙢𝙌𝙇?
+
+* PromQL (Prometheus Query Language) is a powerful and flexible query language used to query data from Prometheus.
+
+* It allows you to retrieve and manipulate time series data, perform mathematical operations, aggregate data, and much more.
+
+** 𝑲𝒆𝒚 𝑭𝒆𝒂𝒕𝒖𝒓𝒆𝒔 𝒐𝒇 𝑷𝒓𝒐𝒎𝑸𝑳:
+
+-> Selecting Time Series: You can select specific metrics with filters and retrieve their data.
+
+-> Mathematical Operations: PromQL allows for mathematical operations on metrics.
+
+-> Aggregation: You can aggregate data across multiple time series.
+
+-> Functionality: PromQL includes a wide range of functions to analyze and manipulate data.
+
+
 
