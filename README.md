@@ -97,7 +97,7 @@ eksctl utils associate-iam-oidc-provider \
     --region us-east-1 \
     --cluster observability \
     --approve
-    
+
 eksctl create nodegroup --cluster=observability \
                         --region=us-east-1 \
                         --name=observability-ng-private \
@@ -113,6 +113,8 @@ eksctl create nodegroup --cluster=observability \
                         --alb-ingress-access \
                         --node-private-networking
 
+# Update ./kube/config file
+aws eks update-kubeconfig --name observability
 # Update ./kube/config file
 aws eks update-kubeconfig --name observability
 
