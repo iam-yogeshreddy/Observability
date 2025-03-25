@@ -129,3 +129,6 @@ kubectl delete -k alerts-alertmanager-servicemonitor-manifest/
 eksctl delete cluster --name observability
 
 ```
+
+
+![Screenshot 2025-03-25 152925](https://github.com/user-attachments/assets/94038a59-64d7-48b4-8a65-1134e2a9e134)
