@@ -88,20 +88,16 @@ Monitoring is the process of keeping an eye on these metrics over time to unders
 
 Step 1: Create EKS Cluster
 
-Prerequisites
-
-Download and Install AWS Cli - Please Refer this link.
-Setup and configure AWS CLI using the aws configure command.
-Install and configure eksctl using the steps mentioned here.
-Install and configure kubectl as mentioned here.
 eksctl create cluster --name=observability \
                       --region=us-east-1 \
                       --zones=us-east-1a,us-east-1b \
                       --without-nodegroup
+                      
 eksctl utils associate-iam-oidc-provider \
     --region us-east-1 \
     --cluster observability \
     --approve
+    
 eksctl create nodegroup --cluster=observability \
                         --region=us-east-1 \
                         --name=observability-ng-private \
