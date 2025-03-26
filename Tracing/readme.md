@@ -91,7 +91,6 @@ helm uninstall elasticsearch -n logging
 
 helm uninstall monitoring -n monitoring
 
-cd day-4
 
 kubectl delete -k kubernetes-manifest/
 
@@ -102,3 +101,5 @@ eksctl delete cluster --name observability
 
 ```
 
+
+![Screenshot 2025-03-26 131643](https://github.com/user-attachments/assets/1e9b38f3-7b9f-471d-9f9b-d4087515fdcc)
